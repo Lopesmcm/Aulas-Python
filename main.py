@@ -1,24 +1,15 @@
-'''
-se condicao
-    executa
-'''
-# x = True
-# y = int(input())
+# i =0
+# while True:
+#     i = i+1
 
-# if y>3:
-#     x = False
-
-# if x:
-#     print(1)
+#     print(i)
 
 
-x =8
+#     if i ==100000:
+#         break
 
-if x>8:
-    print(1)
-elif x>9:
-    print(2)
-elif x%2==1: 
-    print(3) 
-else:
-    print("errado")   
+i = 0
+
+while i<=10000:
+    print(i)
+    i = i+1
